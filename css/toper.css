@@ -44,12 +44,6 @@
 				border-spacing: 10px;
 			
 			}
-			
-			.rightSide table tr td {
-				
-			
-			
-			}
 						
 			.search{
 				width: 1000px;
@@ -103,10 +97,82 @@
 				width: 100px;
 			}
 			
-			#parametrs{
-				
-				background-color: red;
+			
+			.tabContainer{
+				height: 43px;
+				margin-bottom: 0;
+
 			}
+			
+			.tabContainer a{
+				font-size: 18;
+				color: black;
+width: 140px;
+				margin-left: 10px;
+				text-decoration: none;
+				text-align: center;
+				border-radius:  20px 20px 0 0;
+				display: inline-block;
+line-height: 43px;
+				
+
+			}
+			
+			#one{
+
+				border-radius:  20px 20px 0 0;
+				background-color: #FF9900;
+				
+			}
+			
+			#two{
+
+				border-radius:  20px 20px 0 0;
+				background-color: #FFCC66;
+				
+			}
+			
+			#three{
+				
+
+				border-radius:  20px 20px 0 0;
+				background-color: #FFCC99;
+			}
+			
+			#fore{
+
+				border-radius:  20px 20px 0 0;
+				background-color: #FFFF99;
+			}
+			
+			#one:hover, #two:hover, #three:hover, #fore:hover{
+				color: red;
+				background-color: #FFFFCC;
+			}
+			
+			/*
+			.tabs{
+				height: 38px;
+				width: 150px;
+				border-top: 1px solid black; 
+				border-right: 1px solid black;
+				border-radius:  0 20px 0 0;
+				text-align: center;
+				display: inline-block;
+				margin-top: 7px;
+				margin-bottom: 0;
+				
+
+			}
+			
+			.tabs:hover{
+				background-color: lightgray;
+				margin-top: 3px;
+				margin-bottom: 4px;
+				height: 42px;
+			}
+			
+			*/
 			
 
 			.footer{
