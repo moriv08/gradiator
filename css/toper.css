@@ -1,0 +1,102 @@
+			
+			.top{
+				width: 1000px;
+				height: 110px;
+			}
+			
+			.topMenu{
+				background: #E8A87C;
+				width: 1000px;
+				height: 40px;
+				box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+				border-radius: 1px 0 0 1px;
+				opacity: 0.8;
+				background: radial-gradient(circle farthest-corner at 10px 50px, #F8A87C, #E8A87C);
+				background: radial-gradient(circle farthest-corner at 10px 50px, #fadd13, #d72125);
+			
+
+			}
+			.topDives{
+				float: left;
+				margin-right: 25px;
+			}
+			
+			.topDives a{
+				color: #1A1A1D;
+				font-size: 12;
+				text-decoration: none;
+			}
+			
+			.rightSide {
+				width: 680px;
+				height: 1100px;
+				display:block;
+				float: left;
+				margin-top: 15px;
+				margin-left: 30px;
+			
+			
+			}
+			
+			
+			
+			.rightSide table {
+				border-spacing: 10px;
+			
+			}
+			
+			.rightSide table tr td {
+				
+			
+			
+			}
+						
+			.search{
+				width: 1000px;
+				height: 50px;
+				margin-top: 20px;
+			}
+			
+			.userInput{
+				height: 30px;
+				width: 310px;
+				float: left;
+				margin-top: 0;
+				margin-left: 500px;
+				border: 0;
+				border-radius: 50px 0 0 50px;
+				box-shadow: 0.3em 0.3em 9px rgba(122,122,122,0.5);
+				text-indent: 30px;
+			}
+			
+			.button{
+				height: 30px;
+				width: 45px;
+				border-radius: 0 50px 50px 0;
+				box-shadow: 0.3em 0.3em 9px rgba(122,122,122,0.5);
+				border: 0;
+				margin-left: 3px;
+				background-color: white;
+			}
+			
+			.paramInput{
+				height: 30px;
+				width: 50px;
+			}
+			
+			.priceInput{
+				height: 30px;
+				width: 100px;
+			}
+			
+
+			.footer{
+				background: #E8A87C;
+				width: 1000px;
+				height: 70px;
+				box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+				bottom: 0;
+				background: radial-gradient(circle farthest-corner at 10px 50px, #fadd13, #d72125);
+
+			
+			}

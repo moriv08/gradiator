@@ -1,0 +1,40 @@
+
+			
+			.leftMenu{
+				width: 250px;
+				height: 190px;
+				margin-top: 10px;
+				border: 0 dotted black;
+				box-shadow: 0.4em 0.4em 9px rgba(122,122,122,0.5);
+				text-indent: 10px;
+				background: #FFFFFF;
+opacity: 0.7;
+
+			}
+			
+			.leftMenu p {
+				margin: 5px 5px 5px 5px;
+			}
+		
+						
+			.leftMenu a{
+				text-decoration: none;
+				color: #1A1A1D;
+			}
+			.leftMenu a:hover {
+				color: gray;
+			}
+			
+			.leftMenu{
+				display: block;
+			}
+			
+			.leftSide{
+				margin-top: 15px;
+				margin-left: 10px;
+				width: 270px;
+				height: 1100px;
+				float: left;
+				display: block;
+			
+			}
