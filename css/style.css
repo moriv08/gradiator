@@ -20,7 +20,7 @@
 	ul li {
 	  list-style: none;
 	  float: right;
-	  margin-top: 7px;
+	  margin-top: 0px;
 	}
 	ul li a {
 	  position: relative;
@@ -47,7 +47,11 @@
 	  transition: 0.5s;
 	}
 	ul li a:hover {
+		background-color: #fadd13;
+		background-color: #d72125;
+		opacity: 0.7; 
 		color: #fff;
-		border-radius: 2px;
-		box-shadow: 0.5em 0.0em 3px rgba(122,122,122,0.5);
+		color: white;
+	/*	border-radius: 2px;
+		box-shadow: 0.5em 0.0em 3px rgba(122,122,122,0.5);  */
 	}

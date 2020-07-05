@@ -7,7 +7,7 @@
 			.topMenu{
 				background: #E8A87C;
 				width: 1000px;
-				height: 40px;
+				height: 30px;
 				box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
 				border-radius: 1px 0 0 1px;
 				opacity: 0.8;
@@ -54,7 +54,16 @@
 			.search{
 				width: 1000px;
 				height: 50px;
-				margin-top: 20px;
+				margin-top: 40px;
+			}
+			
+			.searcher{
+				width: 360px;
+				height: 30px;
+				box-shadow: 0.3em 0.3em 9px rgba(122,122,122,0.5);
+				border-radius: 30px 30px 30px 30px;
+				float: right;
+				margin-right: 110px;
 			}
 			
 			.userInput{
@@ -62,26 +71,26 @@
 				width: 310px;
 				float: left;
 				margin-top: 0;
-				margin-left: 500px;
 				border: 0;
-				border-radius: 50px 0 0 50px;
-				box-shadow: 0.3em 0.3em 9px rgba(122,122,122,0.5);
 				text-indent: 30px;
+				border-radius: 30px 0 0 30px;
 				border: 0;
 			}
 			
-			.userInput: hover{
-				width: 500px;
+			/*.userInput: :active, :hover, :focus { */
+				
+			.userInput, .button:focus {
+				outline: 0;
+				outline-offset: 0;
 			}
 			
 			.button{
 				height: 30px;
 				width: 45px;
-				border-radius: 0 50px 50px 0;
-				box-shadow: 0.3em 0.3em 9px rgba(122,122,122,0.5);
 				border: 0;
-				margin-left: 3px;
+				margin-left: 0;
 				background-color: white;
+				border-radius: 0 30px 30px 0;
 			}
 			
 			.paramInput{
@@ -92,6 +101,11 @@
 			.priceInput{
 				height: 30px;
 				width: 100px;
+			}
+			
+			#parametrs{
+				
+				background-color: red;
 			}
 			
 
